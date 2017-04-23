@@ -1,20 +1,22 @@
 <html>
 <head>
 
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
 </head>
 
 
 <body>
-    <h2>A servlet example!</h2>
+    <h1>My Shopping List</h1>
 
-    <form action="someServlet" method="post">
-        Input1:<input type="text" name="input1"/><br />
-        Input2:<input type="text" name="input2"/><br />
-        <input type="submit" value="Submit"/>&nbsp;
+    <form action="shoppingList" method="post">
+        Product:<input type="text" name="Product"/><br />
+        Quantity:<input type="text" name="Quantity"/><br />
+        <input type="submit" value="Add"/>&nbsp;
     </form>
 
-    <form action="someServlet" method="get">
-        <input type="submit" value="GetInfo"/>
+    <form action="shoppingList" method="get">
+        <input type="submit" value="Show Shopping List"/>
     </form>
 </body>
 </html>
