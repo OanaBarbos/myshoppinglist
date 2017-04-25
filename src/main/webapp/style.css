@@ -1,17 +1,21 @@
 body {
-   background-color: lightblue;
+   background-color: white;
 }
 
 h1 {
-    font-size: 40px;
-    margin: 10px 0 5px 0;
+    font-size: 70px;
+    margin: 20px 0 10px 0;
 }
 
 h2 {
     font-size: 30px;
-    margin: 10px 0 5px 0;
+    margin: 20px 0 10px 0;
 }
 
+h3 {
+    font-size: 30px;
+    margin: 20px 0 10px 0;
+}
 
 ul, ol {
     margin-left: 25px;
@@ -24,12 +28,10 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
+    border: 1px solid black;
     text-align: left;
     padding: 8px;
 }
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
+
 

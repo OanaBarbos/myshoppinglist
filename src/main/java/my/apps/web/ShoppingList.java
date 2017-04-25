@@ -79,7 +79,7 @@ public class ShoppingList extends HttpServlet {
 
             List<Shopping> shopping = shoppingRepository.read();
                 for (Shopping Shopping : shopping) {
-                         out.println("<tr>");
+                        out.println("<tr>");
                         out.println("<td>"+ Shopping.getProduct() +"</td>");
                         out.println("<td>"+ Shopping.getQuantity()+"</td>");
 
@@ -97,7 +97,7 @@ public class ShoppingList extends HttpServlet {
     }
 
     private void addStyle(PrintWriter out) {
-        out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"css/style.css\">");
+        out.println("<link rel=\"stylesheet\" type=\"text/css\" href=\"/style.css\">");
     }
 
 
